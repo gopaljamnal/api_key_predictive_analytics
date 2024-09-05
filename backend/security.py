@@ -1,6 +1,6 @@
 from functools import wraps
 from flask import request, jsonify
-
+#api
 API_KEY = "12345abcde"
 
 def authenticate_api(f):
